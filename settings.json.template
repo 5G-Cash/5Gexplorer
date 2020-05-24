@@ -7,7 +7,7 @@
   // name your instance!
   "title": "5G | Explorer",
 
-  "address": "https://explorer.fiveg.be",
+  "address": "https://explorer.fiveg.cash",
 
   // coin name
   "coin": "5G",
@@ -33,9 +33,9 @@
 
   // database settings (MongoDB)
   "dbsettings": {
-    "user": "user",
-    "password": "password",
-    "database": "databasedb",
+    "user": "dbuser",
+    "password": "dbpassword",
+    "database": "5gexplorer",
     "address": "localhost",
     "port": 27017
   },
@@ -50,9 +50,9 @@
 
   "wallet": {
     "host": "localhost",
-    "port": 55556,
-    "username": "username",
-    "password": "password"
+    "port": 33256,
+    "username": "rpcuser",
+    "password": "rpcpassword"
   },
 
   // confirmations
@@ -87,15 +87,15 @@
     "show_market_cap_over_price": false,
     "difficulty": "POW",
     "last_txs": 100,
-    "txs_per_page": 20
+    "txs_per_page": 10
   },
 
   // ensure links on API page are valid
   "api": {
     "blockindex": 1,
-    "blockhash": "2d3b3b2a3104b04f0b32bb49dafd33a4c9b5c8b488c9dcde42c5361a20aaf457",
-    "txhash": "f515a4b350f0a4c8e7ce329bda2d279251fe36a57c0bd1071f32391315ad29b3",
-    "address": "VCdB9jM8GJRfXQXmwKbTTu4KrS9uJdAdAD"
+    "blockhash": "9cbe5e39ba5e6ad1e0f00ba02d8a2454f276374c16c96805b200d7c5b87cb983",
+    "txhash": "3b54f10af824371513bd5c6a0fa45bdc8ae9f7fff2ad1d98f1b1c6b184aaa079",
+    "address": "F8YNUPBcXxrshvVGRGbnxSPTAjn6C8M1A4"
   },
 
   // market settings
